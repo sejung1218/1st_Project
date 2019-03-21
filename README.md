@@ -1,25 +1,32 @@
-ÀÌ¼¼Á¤ °³ÀÎ ÇÁ·ÎÁ§Æ® ¼Ò½º ÆÄÀÏµéÀÔ´Ï´Ù.
+ì´ì„¸ì • ê°œì¸ í”„ë¡œì íŠ¸ ì†ŒìŠ¤ íŒŒì¼ë“¤ìž…ë‹ˆë‹¤.
 
-ÇÁ·ÎÁ§Æ®¸í : Photo.PX
+í”„ë¡œì íŠ¸ëª… : Photo.PX
 
-Âü¿©ÀÎ¿ø : 1¸í
+ì°¸ì—¬ì¸ì› : 1ëª…
 
-±â°£ : 2019.03.06 ~ 2019.03.15
+ê¸°ê°„ : 2019.03.06 ~ 2019.03.15
 
-°³¹ßÈ¯°æ : 
+ê°œë°œí™˜ê²½ : 
 
 OS : window 7 Ultimate K
+
 WAS : Apache Tomcat 8.5
+
 DBMS : Oracle XE 11g
+
 Language : Java Platform 8, JSP & Servlet 
+
 Model : MVC model (model 2)
+
 WEB : HTML5, CSS/CSS3, JavaScript
+
 Tool : Eclipse IDE for Enterprise Java Developers., eXERD (E-R Modeling Tool)
+
 Open Source : JavaScript jquery-1.12.4,   jquery-ui-1.11.4,   jquery-easyui-1.4.5, cos-26Dec2008
 
 
-¼³¸í : 
+ì„¤ëª… : 
 
-- ÁÖÁ¦ ¹× ¸ñÀû
-º» ½Ã½ºÅÛÀº ¿©·¯ Á¾·ùÀÇ ÀÌ¹ÌÁö¸¦ ¹«·á·Î °øÀ¯ÇÒ ¼ö ÀÖ´Â ½Ã½ºÅÛÀÌ´Ù.
+- ì£¼ì œ ë° ëª©ì 
+ë³¸ ì‹œìŠ¤í…œì€ ì—¬ëŸ¬ ì¢…ë¥˜ì˜ ì´ë¯¸ì§€ë¥¼ ë¬´ë£Œë¡œ ê³µìœ í•  ìˆ˜ ìžˆëŠ” ì‹œìŠ¤í…œì´ë‹¤.
 
