@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+#contentbox { 
+	height: 560px;
+	position: relative;
+	margin: 0px auto;
+	width: 90%;
+	max-width: 1200px;
+	min-width: 1000px;
+	padding: 27px 19px 23px;
+	padding-top: 40px;
+	border-bottom: 1px solid #C4C4C4;
+	border-radius: 5px;
+	background: #FFFFFF;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	z-index: 1;
+}
+
+.contentUp {
+	position: relative;
+	margin: 0px auto;
+	width: 90%;
+}
+
+.btn_wrap {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	min-width: 60px;
+	height: 40px;
+	margin: 0;
+	padding: 0 15px;
+	border: #222 solid 1px;
+	border-radius: 3px;
+	color: #222;
+	line-height: 38px;
+	text-decoration: none;
+}
+
+.btn.focus {
+	background-color: #333;
+	color: white;
+}
+
+.btn.focus:hover {
+	background-color: white;
+	color: #333;
+}
+
+.contentUp td {
+	border-bottom: 1px solid #C4C4C4;
+}
+
+.contentUp td:first-child {
+	width: 50px;
+}
+
+.contentUp td div {
+	width:1000px;
+	white-space: pre-line;
+ 	word-wrap:break-word;
+
+} 
+
+.board_wrap {
+	position: relative;
+	box-sizing: border-box;
+	padding-top: 110px;
+	padding-bottom: 110px;
+}
+
+.board_wrap footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}

@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+* {
+	text-decoration: none;
+}
+
+#listbox {
+	height: 560px;
+	position: relative;
+	margin: 0px auto;
+	width: 90%;
+	max-width: 1200px;
+	min-width: 1000px;
+	padding: 27px 19px 23px;
+	padding-top: 40px;
+	border-bottom: 1px solid #C4C4C4;
+	border-radius: 5px;
+	background: #FFFFFF;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	z-index: 1;
+}
+
+#box1, #box2 {
+	width: 95%;
+}
+
+.listUp th {
+	height: 30px;
+	border: 1px solid #292e2f;
+	background-color: #292e2f;
+	color: white;
+}
+
+.listUp th:first-child {
+	width: 70px;
+	border-radius: 11px 0 0 11px;
+}
+
+.listUp th:nth-child(2) {
+	width: auto;
+}
+
+.listUp th:nth-child(3) {
+	width: 130px;
+}
+
+.listUp th:nth-child(4) {
+	width: 110px;
+}
+
+.listUp th:last-child {
+	width: 70px;
+	border-radius: 0 11px 11px 0;
+}
+
+.listUp tbody td {
+	padding: 5px;
+	text-align: center;
+	border-bottom: #eee solid 1px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.listUp tbody td a {
+	color: #222;
+	text-decoration: none;
+}
+
+.listUp tbody td a:hover {
+	color: #c30000;
+	text-decoration: underline;
+}
+
+.listUp tbody td:nth-child(2) {
+	text-align: left;
+}
+
+.paging {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.paging a {
+	color: black;
+}
+
+#before_login {
+	text-align: center;
+	left: 50%;
+	bottom: 1%;
+	position: absolute;
+	margin-left: -146px;
+}
+
+#after_login {
+	text-align: center;
+	left: 50%;
+	bottom: 1%;
+	position: absolute;
+	margin-left: -46px;
+}
+
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	min-width: 60px;
+	height: 40px;
+	margin: 0;
+	padding: 0 15px;
+	border: #222 solid 1px;
+	border-radius: 3px;
+	color: #222;
+	line-height: 38px;
+	text-decoration: none;
+}
+
+.btn.focus {
+	background-color: #333;
+	color: white;
+}
+
+.btn.focus:hover {
+	background-color: white;
+	color: #333;
+}
+
+.board_wrap {
+	position: relative;
+	box-sizing: border-box;
+	padding-top: 110px;
+	padding-bottom: 110px;
+}
+
+.board_wrap footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}

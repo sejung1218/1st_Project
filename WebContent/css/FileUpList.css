@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+* {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 2700px;
+	position: relative;
+}
+
+#SliderMain { /*슬라이더*/
+	position: relative;
+	width: 700px;
+	height: 550px;
+	overflow: hidden;
+	white-space: nowrap;
+	vertical-align: middle;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	background: #292e2f;
+	opacity: 0.7;
+	margin-left: -351px;
+}
+
+#SliderMain ul#slider {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#SliderMain ul li {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#SliderMain ul li img {
+	width: 100%;
+	height: 100%;
+}
+
+#SliderMain li {
+	background-size: cover;
+	background-position: center;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.sm {
+	position: relative;
+	top: 750px;
+	width: 100%;
+}
+
+.white {
+	vertical-align: middle;
+	float: left;
+	color: white;
+	width: 23%;
+	height: 300px;
+	margin-bottom: 80px;
+	text-align: center;
+	line-height: 290px;
+	margin: 0.9%;
+}
+
+.block1, .block2, .block3, .block4 {
+	display: table;
+	width: 100%;
+	height: 340px;
+	text-align: center;
+}
+
+.paging {
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	margin-top: 1120px;
+}
+
+.paging a {
+	color: white;
+}
+
+#before_login {
+	text-align: center;
+	right: 3%;
+	bottom: 7%;
+	position: absolute;
+	margin-left: -146px;
+}
+
+#after_login {
+	text-align: center;
+	right: 3%;
+	bottom: 7%;
+	position: absolute;
+	margin-left: -46px;
+}
+
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	min-width: 60px;
+	height: 40px;
+	margin: 0;
+	padding: 0 15px;
+	border: #222 solid 1px;
+	border-radius: 3px;
+	color: #222;
+	line-height: 38px;
+	text-decoration: none;
+}
+
+.btn.focus {
+	background-color: #333;
+	color: white;
+}
+
+.btn.focus:hover {
+	background-color: white;
+	color: #333;
+}

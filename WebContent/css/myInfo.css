@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+#myInfobox {
+	position: relative;
+	margin: 0px auto;
+	width: 20%;
+	max-width: 1200px;
+	padding: 27px 19px 23px;
+	padding-top: 40px;
+	border-bottom: 1px solid #C4C4C4;
+	border-radius: 5px;
+	background: #FFFFFF;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	z-index: 1;
+}
+
+
+.myInfo_wrap {
+	position: relative;
+	box-sizing: border-box;
+	padding-top: 336px;
+	padding-bottom: 110px;
+}
+
+.myInfo_wrap footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+caption {
+	border: 1px solid green;
+}
+
+tr {
+	border: 1px solid red;
+}
+
+td {
+	border: 1px solid blue;
+}
+
+
+
+
+
+
